@@ -1,0 +1,103 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     font-weight:bold;
+}
+
+footer{
+  margin-top: 2%;
+  font-size: 1.2em;
+
+}
+form, footer{
+  float: left;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+
+h1{
+  float: left;
+  margin-left: 35%;
+  font-size: 3em;
+}
+
+.hidden{
+  display:none;
+}
+.greenPepL{
+  background: url("../images/greenleft.png");
+  background-size: cover;
+  background-position: top;
+}
+.greenPepR{
+  background: url("../images/greenright.png");
+  background-size: cover;
+  background-position: top;
+}
+.greenPepW{
+  background: url("../images/fullgreen.png");
+  background-size: cover;
+  background-position: center;
+}
+.oliveL{
+  background: url("../images/oliveleft.png");
+  background-size: cover;
+  background-position: top;
+}
+.oliveR{
+  background: url("../images/halfolive.png");
+  background-size: cover;
+  background-position: top;
+}
+.oliveW{
+  background: url("../images/fullolive.png");
+  background-size: cover;
+  background-position: center;
+}
+.pie{
+  float: left;
+  background: url("../images/wholepizza.jpeg") no-repeat;
+  background-size: contain;
+  height:500px;
+  width: 50%;
+  margin-left: 30%;
+  margin-bottom: 2%;
+  /* border: 1px solid black; */
+}
+.pizzaLeft{
+  /* border: 1px solid red; */
+  margin: 5% 0 0 12%;
+}
+.pizzaRight{
+  /* border: 1px solid blue; */
+  margin: 5% 0 0 0;
+}
+
+.pizzaRight, .pizzaLeft{
+  float: left;
+  height:400px;
+  width:25%;
+}
+.roniL{
+  background: url("../images/halfroni.png");
+  background-size: cover;
+  background-position: top;
+}
+.roniR{
+  background: url("../images/roniright.png");
+  background-size: cover;
+  background-position: top;
+}
+.roniW{
+  background: url("../images/fullroni.png");
+  background-size: cover;
+  background-position: center;
+}
+.whole{
+  height:400px;
+  width:40%;
+  float: left;
+  margin: -45% 0 0 15%;
+  /* border: 1px solid green; */
+}
